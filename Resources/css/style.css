@@ -1,0 +1,61 @@
+.Header {
+  position: fixed;
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border-bottom: 1px solid black;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+
+}
+
+h1 {
+color: MediumAquamarine;
+font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+display: block;
+}
+
+nav {
+  text-align: right;
+  display: inline-block;
+  position: fixed;
+  color: black;
+  width: auto;
+}
+
+nav li {
+  text-align: right;
+  display: inline-block;
+}
+
+nav a {
+  color: black;
+}
+
+.content {
+  display: flex;
+  border: 1px solid black;
+}
+
+.column .large {
+  border: 1px solid black;
+  width: 630px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.stories {
+  border: 1px solid black;
+}
+
+.story {
+  border: 1px solid black;
+}
