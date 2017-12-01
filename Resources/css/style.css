@@ -16,6 +16,7 @@ body {
   padding-left: 32px;
   background: white;
   align-items: center;
+  top: 0;
 
 }
 
@@ -34,9 +35,8 @@ font-weight: bold;
 display: block;
 }
 
-.header .nav {
-  display: inline-block;
-  position: fixed;
+nav {
+  display: flex;
   color: black;
   font-family: Verdana;
   font-size: 14px;
