@@ -1,3 +1,7 @@
+body {
+  display: block;
+}
+
 .Header {
   position: fixed;
   display: flex;
@@ -6,11 +10,12 @@
   font-weight: bold;
   color: black;
   border-bottom: 1px solid black;
-  align-items: center;
   z-index: 1;
   width: 100%;
   height: 80px;
   padding-left: 32px;
+  background: white;
+  align-items: center;
 
 }
 
@@ -30,7 +35,6 @@ display: block;
 }
 
 .header .nav {
-  text-align: right;
   display: inline-block;
   position: fixed;
   color: black;
@@ -41,7 +45,6 @@ display: block;
 }
 
 nav li {
-  text-align: right;
   display: inline-block;
   align-items: right;
 }
@@ -57,8 +60,8 @@ nav span {
 
 .content {
   display: flex;
-  border: 1px solid black;
   padding-top: 116px;
+  margin: 0 auto 78px auto;
 }
 
 .column {
@@ -73,8 +76,11 @@ nav span {
   color: black;
 }
 
+p {
+  display: block;
+}
+
 .column.large {
-  border: 1px solid black;
   width: 630px;
   display: flex;
   margin-right: 32px;
@@ -89,12 +95,22 @@ nav span {
   color: white;
   text-align: center;
 }
+
+
 .stories {
-  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
+.stories.text-content {
+  height: 250px;
+  display: block;
+}
 .story {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 .earth {
@@ -105,6 +121,7 @@ nav span {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
 }
 
 .camera {
@@ -115,6 +132,11 @@ nav span {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+}
+
+div {
+  display: block;
 }
 
 .column.medium {
@@ -122,7 +144,6 @@ nav span {
 }
 
 .cats {
-  border: 1px solid black
   display: block;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   height: 300px;
@@ -134,7 +155,53 @@ nav span {
 }
 
 .column.small {
-  border: 1px solid black;
   width: 240px;
   display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bites {
+  display: block;
+  padding: 11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black
+}
+
+.footer {
+ display: flex;
+ background-color: MediumAquamarine;
+ margin: auto;
+ font-family: Verdana;
+ font-size: 12px;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ height: 325px;
+ margin: auto;
+
+}
+
+.footer .title{
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ text-align: center;
+ display: inline-block;
+ border-right: 2px solid white;
+ padding-right: 25px;
+}
+
+nav{
+  display: inline-block;
+  padding-left: 25px;
 }
