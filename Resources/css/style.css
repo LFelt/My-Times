@@ -100,7 +100,7 @@ p {
   display: flex;
 }
 
-.stories.coloum {
+.stories.column {
   justify-content: space-between;
   width: 50%;
 }
