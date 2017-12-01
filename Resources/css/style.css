@@ -96,11 +96,13 @@ p {
   text-align: center;
 }
 
-
 .stories {
   display: flex;
+}
+
+.stories.coloum {
   justify-content: space-between;
-  flex-direction: column;
+  width: 50%;
 }
 
 .stories.text-content {
